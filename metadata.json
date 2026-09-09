@@ -1,0 +1,8 @@
+{
+  "name": "Winter - TWO Staff onboarding app",
+  "description": "A dynamic and detailed contact page for custom product order inquiries. Site Manager can specify their size with a variety of conditional options to build a comprehensive order request.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
