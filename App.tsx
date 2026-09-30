@@ -443,9 +443,6 @@ const App: React.FC = () => {
                 {item.mainChoice === 'Existing Employee' && (
                   <div className="mt-8 space-y-8 animate-fade-in">
                      <FormSection title="Select Item" step={2}>
-                         <p className="text-sm text-indigo-700 font-medium mb-3 bg-indigo-50 p-3 rounded-lg border border-indigo-100">
-                             * Note: Winterwear (Fleece Pullovers & Jackets) available 10/01
-                         </p>
                          <CheckboxGroup 
                              name={`generalCategory_${index}`} 
                              options={['Polo Shirts', 'Hats', 'Beanies', 'Fleece Jackets', 'Winter Jackets', 'Replacement ID-Badge']} 
