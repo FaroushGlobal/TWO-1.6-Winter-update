@@ -343,7 +343,17 @@ const App: React.FC = () => {
                   )}
                 </div>
                 
-                <FormSection title="Select Request Type" step={1}>
+                <FormSection
+                  title={
+                    <span className="inline-flex flex-wrap items-baseline gap-x-2">
+                      <span>Select Request Type</span>
+                      <span className="text-sm md:text-base font-normal text-red-600">
+                        (Request Winterwear for New Staff through the <strong className="font-bold text-red-600">Existing Employee</strong> selection)
+                      </span>
+                    </span>
+                  }
+                  step={1}
+                >
                   <CheckboxGroup 
                      name={`mainChoice_${index}`} 
                      options={['Onboarding (New-Hire)', 'Existing Employee', 'Signage (Coming Soon)']} 
