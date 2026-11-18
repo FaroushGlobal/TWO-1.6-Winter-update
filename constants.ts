@@ -44,6 +44,7 @@ export const FLEECE_ONLY_PROPERTIES = [
 ];
 
 export const PROPERTIES = [
+  '1250 LaSalle',
   '150 Summit',
   '333 Fremont',
   '77 Park Avenue',
